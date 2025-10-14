@@ -1,9 +1,9 @@
----
-**⚠️ EXPERIMENTAL - USE AT YOUR OWN RISK**
 
-This is an experimental implementation that has not been independently reviewed or audited. It should not be used in production environments. Use at your own peril.
+>** EXPERIMENTAL - USE AT YOUR OWN RISK**
+>
+>This is an experimental implementation that has not been independently reviewed or audited. It should not be used in production environments. Use at your own peril.
 
----
+
 
 # Classic McEliece
 
