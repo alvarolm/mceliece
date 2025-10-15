@@ -104,7 +104,6 @@ go test ./...
 - This is a defensive cryptographic implementation intended for research and experimental use
 - McEliece implementations have large key sizes compared to other PQC algorithms
 - The algorithm is designed to be conservative and has a long history of cryptanalytic study
-- All random number generation uses `crypto/rand` for cryptographically secure randomness
 
 ## Original Source
 
