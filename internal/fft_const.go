@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/katzenpost/circl/math/gf2e12"
-	"github.com/katzenpost/circl/math/gf2e13"
+	"github.com/alvarolm/mceliece/internal/gf2e12"
+	"github.com/alvarolm/mceliece/internal/gf2e13"
 )
 
 var ButterfliesReversal4096 = [64]byte{

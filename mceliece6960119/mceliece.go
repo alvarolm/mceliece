@@ -19,12 +19,13 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/alvarolm/mceliece/internal/gf2e13"
+
 	"github.com/alvarolm/mceliece/internal"
 	"github.com/alvarolm/mceliece/internal/nist"
 	"github.com/alvarolm/mceliece/internal/sha3"
 	"github.com/alvarolm/mceliece/kem"
 	"github.com/alvarolm/mceliece/pem"
-	"github.com/katzenpost/circl/math/gf2e13"
 )
 
 const (

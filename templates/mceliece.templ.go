@@ -27,7 +27,7 @@ import (
 	"github.com/alvarolm/mceliece/internal/sha3"
 	"github.com/alvarolm/mceliece/kem"
 	"github.com/alvarolm/mceliece/pem"
-	"github.com/katzenpost/circl/math/{{.Param.Gf}}"
+	"internal/{{.Param.Gf}}"
 	"github.com/alvarolm/mceliece/internal"
 )
 
