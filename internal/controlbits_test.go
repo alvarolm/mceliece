@@ -73,12 +73,12 @@ func TestRecursion2(t *testing.T) {
 func TestControlBitsFromPermutationKat3Mceliece348864(t *testing.T) {
 	pi, err := testdata.FindTestDataI16("controlbits_kat3_mceliece348864_pi", testPath)
 	if err != nil {
-		t.Errorf(err.Error())
+		t.Errorf("%s", err.Error())
 		return
 	}
 	want, err := testdata.FindTestDataByte("controlbits_kat3_mceliece348864_out_ref", testPath)
 	if err != nil {
-		t.Errorf(err.Error())
+		t.Errorf("%s", err.Error())
 		return
 	}
 	out := make([]byte, 5888)
@@ -91,12 +91,12 @@ func TestControlBitsFromPermutationKat3Mceliece348864(t *testing.T) {
 func TestControlBitsFromPermutationKat8Mceliece348864(t *testing.T) {
 	pi, err := testdata.FindTestDataI16("controlbits_kat8_mceliece348864_pi", testPath)
 	if err != nil {
-		t.Errorf(err.Error())
+		t.Errorf("%s", err.Error())
 		return
 	}
 	want, err := testdata.FindTestDataByte("controlbits_kat8_mceliece348864_out_ref", testPath)
 	if err != nil {
-		t.Errorf(err.Error())
+		t.Errorf("%s", err.Error())
 		return
 	}
 	out := make([]byte, 5888)
@@ -109,12 +109,12 @@ func TestControlBitsFromPermutationKat8Mceliece348864(t *testing.T) {
 func TestControlBitsFromPermutationKat9Mceliece348864(t *testing.T) {
 	pi, err := testdata.FindTestDataI16("controlbits_kat9_mceliece348864_pi", testPath)
 	if err != nil {
-		t.Errorf(err.Error())
+		t.Errorf("%s", err.Error())
 		return
 	}
 	want, err := testdata.FindTestDataByte("controlbits_kat9_mceliece348864_out_ref", testPath)
 	if err != nil {
-		t.Errorf(err.Error())
+		t.Errorf("%s", err.Error())
 		return
 	}
 	out := make([]byte, 5888)
